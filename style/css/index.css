@@ -1,0 +1,206 @@
+header {
+    height: 3.86rem;
+    width: 100%;
+    background: #16d0ff;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 0.66rem;
+    top: 0.82rem;
+    width: 3.40rem;
+    height: 0.76rem;
+}
+
+header .logo img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 导航 */
+
+header nav {
+    float: right;
+    margin-top: 1.2rem;
+    margin-right: 0.92rem;
+}
+
+header nav ul li {
+    height: 0.64rem;
+    width: auto;
+    float: left;
+    margin-left: 0.35rem;
+    letter-spacing: 0.02rem;
+}
+
+header nav ul li a {
+    font-size: 0.28rem;
+    color: #fdfffe;
+}
+
+
+/* 划过时添加下划线 */
+
+header nav ul .line {
+    border-bottom: 0.01rem solid #fdfffe;
+}
+
+
+/* 轮播样式 */
+
+.container {
+    width: 100%;
+    height: 5.51rem;
+}
+
+container .pic {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    width: 96%;
+    margin-left: 2%;
+    height: 5.51rem;
+}
+
+.content a {
+    width: 100%;
+    height: 100%;
+}
+
+.content a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*轮播按钮*/
+
+.btn {
+    position: relative;
+    margin-left: 48%;
+    top: 90%;
+    z-index: 9999;
+}
+
+.btn ul li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    list-style-type: none;
+    display: inline-block;
+    background: #9e9d9c;
+    cursor: pointer;
+}
+
+
+/*轮播时按钮样式*/
+
+.btn ul li.but {
+    background: #53baff;
+}
+
+
+/* 我的业务 && 我的案例 （公共样式）*/
+
+.my-professional-work {
+    height: 7.88rem;
+    background: blue;
+    position: relative;
+}
+
+.my-professional-work .left-line,
+.my-professional-work .right-line,
+.my-case .left-line,
+.my-case .right-line {
+    height: 1px;
+    width: 33%;
+    background: #edffff;
+    top: 2rem;
+    position: absolute;
+}
+
+.my-professional-work .left-line,
+.my-case .left-line {
+    left: 1.72rem;
+}
+
+.my-professional-work .right-line,
+.my-case .right-line {
+    right: 1.72rem;
+}
+
+.my-professional-work .myp-rofessional-center,
+.my-case .myp-rofessional-center {
+    position: absolute;
+    top: 1.68rem;
+    font-size: 0.5rem;
+    color: #fff;
+    margin-left: 45%;
+    letter-spacing: 3px;
+}
+
+
+/* 业务分类 （1.网站...） */
+
+.business-list {
+    margin-left: 2.7%;
+    padding-top: 4.5rem;
+}
+
+.business-list ul li {
+    float: left;
+    margin-left: 1rem;
+}
+
+.business-list .business-sort {
+    text-align: center;
+    color: #fff;
+    font-size: 0.32rem;
+}
+
+.business-list .business-sort img {
+    height: 1.85rem;
+    width: 1.85rem;
+}
+
+.business-list .business-sort p {
+    margin-top: 1.07rem;
+}
+
+
+/* 我的案例 */
+
+.my-case {
+    width: 100%;
+    height: 22.4rem;
+    background: red;
+    position: relative;
+}
+
+
+/* 案例01 */
+
+.my-case-01 {
+    padding-top: 3.61rem;
+    margin-left: 1.97rem;
+}
+
+.my-case-01 img {
+    height: 5.11rem;
+    width: 5.35rem;
+}
+
+.my-case-01 p {
+    float: right;
+    width: 7.56rem;
+    height: auto;
+    color: #fff;
+    font-size: 0.25rem;
+    letter-spacing: 0.02rem;
+}
