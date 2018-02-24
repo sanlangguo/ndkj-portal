@@ -16,23 +16,9 @@
 </head>
 
 <body>
-    <header>
-        <!-- 头部导航 -->
-        <div class="logo">
-            <img src="images/logo.png" alt="logo">
-        </div>
 
-        <!-- 导航 -->
-        <nav>
-            <ul>
-                <li><a href="javascript:void(0)">首页</a></li>
-                <li><a href="javascript:void(0)">业务板块</a></li>
-                <li><a href="javascript:void(0)">经典案例</a></li>
-                <li><a href="javascript:void(0)">更多</a></li>
-                <li><a href="javascript:void(0)">关于我们</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- 导航公共 -->
+    <header></header>
 
     <!-- 轮播 -->
     <div class="container">
@@ -275,19 +261,29 @@
         </div>
     </div>
 
+    <!-- 关于我们 -->
+    <div class="about-us">
+        <div class="left-line"></div>
+        <div class="myp-rofessional-center">关于我们</div>
+        <div class="right-line"></div>
 
+        <!-- 关于我们的图片&&文字描述 -->
+        <img src="images/about-us.png" alt="关于我们">
+        <aside>
+            <p>打造移动互联网技术第一平台，打造移动互联网技术第一平打造移动互联网技</p>
+            <p>打造移动互联网技术第一平台，打造移动互联网技术第一平打造移动互联网技</p>
+            <p>打造移动互联网技术第一平台，打造移动互联网技术第一平打造移动互联网技</p>
+        </aside>
+    </div>
+
+    <!-- 底部公共 -->
+    <footer></footer>
 
     <script type="text/javascript">
-        // 导航滑动添加下划线
-        $("header nav ul li").hover(
-            function() {
-                $(this).addClass("line");
-            },
-            function() {
-                $(this).removeClass("line");
-            }
-        );
-
+        // 加载导航
+        $("header").load("public/nav.html");
+        // 加载底部
+        $("footer").load("public/footer.html");
         var i = 0;
         $(".btn ul li").click(function() {
             i = $(this).index();

@@ -1,53 +1,3 @@
-header {
-    height: 3.86rem;
-    width: 100%;
-    background: #16d0ff;
-    position: relative;
-}
-
-header .logo {
-    position: absolute;
-    left: 0.66rem;
-    top: 0.82rem;
-    width: 3.40rem;
-    height: 0.76rem;
-}
-
-header .logo img {
-    height: 100%;
-    width: 100%;
-}
-
-
-/* 导航 */
-
-header nav {
-    float: right;
-    margin-top: 1.2rem;
-    margin-right: 0.92rem;
-}
-
-header nav ul li {
-    height: 0.64rem;
-    width: auto;
-    float: left;
-    margin-left: 0.35rem;
-    letter-spacing: 0.02rem;
-}
-
-header nav ul li a {
-    font-size: 0.28rem;
-    color: #fdfffe;
-}
-
-
-/* 划过时添加下划线 */
-
-header nav ul .line {
-    border-bottom: 0.01rem solid #fdfffe;
-}
-
-
 /* 轮播样式 */
 
 .container {
@@ -94,8 +44,8 @@ container .pic {
     border-radius: 50%;
     list-style-type: none;
     display: inline-block;
-    background: #9e9d9c;
     cursor: pointer;
+    background: #a09f9f;
 }
 
 
@@ -106,11 +56,10 @@ container .pic {
 }
 
 
-/* 我的业务 && 我的案例 && 流程 && 合作伙伴（公共样式）*/
+/* 我的业务 && 我的案例 && 流程 && 合作伙伴 && 关于我们（公共样式）*/
 
 .my-professional-work {
     height: 7.88rem;
-    background: blue;
     position: relative;
 }
 
@@ -121,7 +70,9 @@ container .pic {
 .process .left-line,
 .process .right-line,
 .cooperation-partner .left-line,
-.cooperation-partner .right-line {
+.cooperation-partner .right-line,
+.about-us .left-line,
+.about-us .right-line {
     height: 1px;
     width: 33%;
     background: #edffff;
@@ -132,21 +83,24 @@ container .pic {
 .my-professional-work .left-line,
 .my-case .left-line,
 .process .left-line,
-.cooperation-partner .left-line {
+.cooperation-partner .left-line,
+.about-us .left-line {
     left: 1.72rem;
 }
 
 .my-professional-work .right-line,
 .my-case .right-line,
 .process .right-line,
-.cooperation-partner .right-line {
+.cooperation-partner .right-line,
+.about-us .right-line {
     right: 1.72rem;
 }
 
 .my-professional-work .myp-rofessional-center,
 .my-case .myp-rofessional-center,
 .process .myp-rofessional-center,
-.cooperation-partner .myp-rofessional-center {
+.cooperation-partner .myp-rofessional-center,
+.about-us .myp-rofessional-center {
     position: absolute;
     top: 1.65rem;
     font-size: 0.5rem;
@@ -189,7 +143,6 @@ container .pic {
 .my-case {
     width: 100%;
     height: 22.4rem;
-    background: red;
     position: relative;
 }
 
@@ -257,7 +210,6 @@ container .pic {
 .process {
     height: 9rem;
     position: relative;
-    background: blue;
 }
 
 .process .myp-rofessional-center {
@@ -289,7 +241,6 @@ container .pic {
 .cooperation-partner {
     height: 8.47rem;
     position: relative;
-    background: rosybrown;
 }
 
 .cooperation-partner .cooperation-unit {
@@ -319,4 +270,32 @@ container .pic {
 .cooperation-partner .cooperation-unit ul li img {
     height: 100%;
     width: 100%;
+}
+
+
+/* 关于我们 */
+
+.about-us {
+    height: 8rem;
+    width: 100%;
+    position: relative;
+}
+
+.about-us img {
+    height: 3.52rem;
+    width: 5.35rem;
+    margin-top: 3.52rem;
+    margin-left: 10%;
+}
+
+.about-us aside {
+    float: right;
+    margin-top: 4.1rem;
+    font-size: 0.28rem;
+    color: #a09f9f;
+    margin-right: 7.7%;
+}
+
+.about-us aside p {
+    margin: 0.29rem auto;
 }

@@ -39,6 +39,8 @@ body {
     font-family: "Microsoft YaHei";
     font-size: 14px;
     color: #333;
+    background: url("../../images/body-background.png") no-repeat left center;
+    background-size: 100% 100%;
 }
 
 h1,
@@ -79,4 +81,67 @@ textarea {
 textarea {
     resize: none;
     overflow: auto;
+}
+
+
+/* 导航样式 */
+
+header {
+    height: 3.86rem;
+    width: 100%;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 0.66rem;
+    top: 0.82rem;
+    width: 3.40rem;
+    height: 0.76rem;
+}
+
+header .logo img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 导航 */
+
+header nav {
+    float: right;
+    margin-top: 1.2rem;
+    margin-right: 0.92rem;
+}
+
+header nav ul li {
+    height: 0.64rem;
+    width: auto;
+    float: left;
+    margin-left: 0.35rem;
+    letter-spacing: 0.02rem;
+}
+
+header nav ul li a {
+    font-size: 0.28rem;
+    color: #fdfffe;
+}
+
+
+/* 划过导航时添加下划线 */
+
+header nav ul .line {
+    border-bottom: 0.01rem solid #fdfffe;
+}
+
+
+/* 底部样式 */
+
+footer {
+    height: 1rem;
+    width: 100%;
+    line-height: 1rem;
+    text-align: center;
+    color: #a09f9f;
+    font-size: 0.26rem;
 }
