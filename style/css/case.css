@@ -1,0 +1,139 @@
+/* 优惠劵 */
+
+main article {
+    width: 90%;
+    background: url(../../images/coupon.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-left: 5%;
+}
+
+main article img {
+    visibility: hidden;
+    width: 100%;
+    height: auto;
+}
+
+
+/* 企业 && 小程序 && app && 服务  */
+
+main .case-list {
+    width: 100%;
+    height: 1.6rem;
+    margin-top: 1.58rem;
+}
+
+main .case-list ul {
+    margin-left: 1.9rem;
+    height: 100%;
+}
+
+main .case-list ul li {
+    height: 100%;
+    width: 3.66rem;
+    float: left;
+    border-left: 0.01rem solid #ffffff;
+}
+
+main .case-list ul li section {
+    height: 100%;
+    width: 100%;
+    color: #767474;
+    text-align: center;
+}
+
+main .case-list ul li section p:first-child {
+    font-size: 0.42rem;
+    margin-top: 0.19rem;
+}
+
+main .case-list ul li section p:last-child {
+    margin-top: 0.19rem;
+    font-size: 0.25rem
+}
+
+main .case-list ul li section:hover {
+    color: #fff;
+}
+
+
+/* 详细案例介绍 （图片&&文字） */
+
+main .case-introduction {
+    height: 6.76rem;
+    width: 100%;
+    margin-top: 1.74rem;
+    margin-bottom: 2.52rem;
+}
+
+main .case-introduction ul {
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+main .case-introduction ul li {
+    border: #e0e0e0 solid 0.02rem;
+    height: 100%;
+    width: 5.18rem;
+    float: left;
+    background: #fff;
+}
+
+main .case-introduction ul li:first-child {
+    margin-left: 0.04rem;
+}
+
+main .case-introduction ul li:nth-child(2),
+main .case-introduction ul li:last-child {
+    margin-left: 0.62rem;
+}
+
+main .case-introduction .case-img {
+    width: 100%;
+    height: 3.27rem;
+    background: url(../../images/case-img01.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+main .case-introduction .case-img img {
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* 案例文字描述 */
+
+main .case-introduction .case-word-description .time,
+main .case-introduction .case-word-description p:last-child {
+    color: #848484;
+}
+
+main .case-introduction .case-word-description .time {
+    font-size: 0.16rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    padding-left: 0.46rem;
+}
+
+main .case-introduction .case-word-description .title {
+    color: #000;
+    font-size: 0.28rem;
+    width: 90%;
+    padding-left: 9%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+main .case-introduction .case-word-description p:last-child {
+    width: 90%;
+    padding-left: 9%;
+    margin-top: 0.35rem;
+    font-size: 0.2rem;
+}
+
+main .case-introduction .case-word-description .title:hover,
+main .case-introduction .case-word-description p:last-child:hover {
+    color: red;
+}
