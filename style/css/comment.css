@@ -96,8 +96,8 @@ header .logo {
     position: absolute;
     left: 0.66rem;
     top: 0.82rem;
-    width: 3.40rem;
-    height: 0.76rem;
+    width: 2.5rem;
+    height: 0.6rem;
 }
 
 header .logo img {
@@ -110,8 +110,8 @@ header .logo img {
 
 header nav {
     float: right;
-    margin-top: 1.2rem;
-    margin-right: 0.92rem;
+    margin-top: 0.8rem;
+    margin-right: 0.8rem;
 }
 
 header nav ul li {
@@ -123,8 +123,12 @@ header nav ul li {
 }
 
 header nav ul li a {
-    font-size: 0.28rem;
+    font-size: 0.22rem;
     color: #fdfffe;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
 }
 
 
